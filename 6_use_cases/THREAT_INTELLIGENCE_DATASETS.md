@@ -15,7 +15,7 @@ The datasets listed below cover various aspects of threat intelligence including
 ## 🔒 Phishing and Email Security
 
 ### 1. Phishing Emails Dataset
-- **Source**: [HuggingFace - drorrabin/phishing_emails-data](https://huggingface.co/datasets/drorrabin/phishing_emails-data)
+- **Source**: [Hugging Face - drorrabin/phishing_emails-data](https://huggingface.co/datasets/drorrabin/phishing_emails-data)
 - **Original**: [Kaggle - Phishing Emails](https://www.kaggle.com/datasets/subhajournal/phishingemails)
 - **Size**: ~27,000 training samples, ~3,700 test samples
 - **Format**: Text (email content) with binary labels (safe/phishing)
@@ -236,7 +236,7 @@ import boto3
 import sagemaker
 from datasets import load_dataset
 
-# Example: Loading HuggingFace dataset and uploading to S3
+# Example: Loading Hugging Face dataset and uploading to S3
 dataset = load_dataset("drorrabin/phishing_emails-data")
 s3_client = boto3.client('s3')
 bucket = sagemaker.Session().default_bucket()
