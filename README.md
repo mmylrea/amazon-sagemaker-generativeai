@@ -166,6 +166,8 @@ This repository supports a comprehensive range of foundation models with various
 - **[Text Summarization](6_use_cases/usecases/text_summarization/)** - Document and content summarization using AI21, Falcon-7B, and FLAN-T5-XL models with LangChain integration
 - **[Text Summarization to Image](6_use_cases/usecases/text_summarization_to_image/)** - Multi-modal content generation pipeline combining text summarization with image generation capabilities
 - **[Text-to-SQL](6_use_cases/usecases/text_to_sql/)** - Natural language database querying using Code Llama with LangChain SQL query generation, complete with demo database and web interface
+- **[Phishing Detection](6_use_cases/usecases/text_classification_for_phishing/)** - Binary classification for phishing email detection using Qwen2.5-1.5B with fast inference and production-ready implementation
+- **[Threat Intelligence Datasets](6_use_cases/THREAT_INTELLIGENCE_DATASETS.md)** - Comprehensive guide to 28+ public datasets for cybersecurity ML including phishing, malware, intrusion detection, and threat intelligence
 
 ### 🚀 [Inference Optimization](7_inference/)
 
